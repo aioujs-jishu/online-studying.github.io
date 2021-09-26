@@ -1,0 +1,469 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .body {
+        background-color: #f3f5f7;
+    }
+    
+    .w {
+        width: 1200px;
+        margin: auto;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header {
+        height: 42px;
+        margin: 30px auto;
+    }
+    
+    .logo {
+        float: left;
+        width: 198px;
+        height: 42px;
+    }
+    
+    .nav {
+        float: left;
+        margin-left: 60px;
+    }
+    
+    .nav ul li {
+        float: left;
+        margin: 0 10px;
+    }
+    
+    .nav ul li a {
+        display: block;
+        height: 42px;
+        line-height: 42px;
+        padding: 0 10px;
+        font-size: 18px;
+        color: #050505;
+    }
+    
+    .nav ul li a:hover {
+        border-bottom: 2px solid #00a4ff;
+        color: #00a4ff;
+    }
+    
+    .search {
+        float: left;
+        margin-left: 50px;
+        width: 412px;
+        height: 42px;
+    }
+    
+    .search input {
+        float: left;
+        width: 360px;
+        height: 40px;
+        border: 1px solid #00a4ff;
+        border-right: 0;
+        color: #bfbfbf;
+        font-size: 14px;
+        text-indent: 2em;
+    }
+    
+    .search button {
+        float: left;
+        width: 50px;
+        height: 42px;
+        border: 0;
+        background: url(images/btn.jpg);
+    }
+    
+    .user {
+        float: right;
+        line-height: 42px;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .banner {
+        height: 420px;
+        background-color: #1c036c;
+    }
+    
+    .banner .w {
+        height: 420px;
+        background: url(images/banner.png) no-repeat top center;
+    }
+    
+    .subnav {
+        float: left;
+        height: 420px;
+        width: 190px;
+        background-color: rgb(0, 0, 0, .3);
+    }
+    
+    .banner ul li a {
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .banner ul li {
+        height: 45px;
+        line-height: 45px;
+        padding: 0px 20px;
+    }
+    
+    .banner ul li a:hover {
+        color: #00b4ff;
+    }
+    
+    .banner ul li a span {
+        float: right;
+    }
+    
+    .course {
+        float: right;
+        margin: 50px 0px 70px 0px;
+        width: 230px;
+        height: 300px;
+        background-color: #ffffff;
+    }
+    
+    .course h2 {
+        height: 48px;
+        background-color: #9bceea;
+        color: #ffffff;
+        line-height: 48px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .kc {
+        padding: 0 20px;
+    }
+    
+    .kc ul li {
+        padding: 3px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .kc ul li h4 a {
+        font-size: 14px;
+        color: #4e4e4e;
+    }
+    
+    .kc ul li h4 a span {
+        font-size: 12px;
+        color: #a5a5a5;
+    }
+    
+    .kc .more {
+        display: block;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #00a4ff;
+        color: #00a4ff;
+    }
+    
+    .kc .more:hover {
+        color: #4e4e4e;
+    }
+    
+    .goods {
+        margin-top: 10px;
+        height: 60px;
+        line-height: 60px;
+        background-color: #fff;
+        box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
+    }
+    
+    .goods h3 {
+        float: left;
+        font-size: 16px;
+        color: #00a4ff;
+        padding-left: 30px;
+    }
+    
+    .goods ul {
+        float: left;
+        padding-left: 30px;
+    }
+    
+    .goods ul li {
+        float: left;
+    }
+    
+    .goods ul li a {
+        padding: 0 30px;
+        font-size: 16px;
+        color: #050505;
+        border-left: 1px solid #ccc
+    }
+    
+    .goods ul li a:hover {
+        color: #00a4ff;
+    }
+    
+    .goods .mod {
+        float: right;
+        margin-right: 30px;
+        font-size: 14px;
+        color: #00a4ff;
+    }
+    
+    .goods .mod:hover {
+        color: #050505;
+    }
+    
+    .clearfix::before,
+    .clearfix:after {
+        content: "";
+        display: table;
+    }
+    
+    .clearfix:after {
+        clear: both;
+    }
+    
+    .clearfix {
+        *zoom: 1;
+    }
+    
+    .box {
+        margin: 30px auto;
+        background: pink;
+    }
+    
+    .box .box-hd {
+        float: top;
+        height: 40px;
+        background: #fff;
+    }
+    
+    .box .box-hd h3 {
+        float: left;
+        font-weight: normal;
+        font-size: 20px;
+        color: #494949;
+    }
+    
+    .box .box-hd a {
+        float: right;
+        margin: 10px 30px 0px 35px;
+        font-size: 12px;
+        color: #c6c7c8;
+    }
+    
+    .box .box-hd a:hover {
+        color: #00a4ff;
+    }
+    
+    .box-bd {
+        float: bottom;
+        background: #f3f5f7;
+    }
+    
+    .box-bd ul {
+        width: 1225px;
+    }
+    
+    .box-bd ul li {
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 228px;
+        height: 270px;
+        background: #fff;
+        box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
+    }
+    
+    .box-bd ul li img {
+        width: 100%;
+    }
+    
+    .box-bd ul li h4 a {
+        display: block;
+        padding: 20px 20px 20px 25px;
+        font-size: 14px;
+        color: #050505;
+        font-weight: 400;
+    }
+    
+    .box-bd ul li h4 a:hover {
+        color: #00a4ff;
+    }
+    
+    .box-bd .info {
+        margin: 0px 20px 0px 25px;
+        font-size: 12px;
+        color: #999;
+    }
+    
+    .box-bd .info span {
+        color: #ff7c2d;
+    }
+    
+    .box-model {
+        height: 455px;
+        background-color: #f3f5f7;
+    }
+    
+    .box-model .up {
+        height: 42px;
+    }
+    
+    .box-model .up h3 {
+        float: left;
+        font-weight: normal;
+        font-size: 20px;
+        color: #494949;
+        margin-right: 350px;
+    }
+    
+    .up ul li a {
+        float: left;
+        height: 42px;
+        font-size: 16px;
+        line-height: 42px;
+        margin-right: 70px;
+        color: #868686;
+    }
+    
+    .up a {
+        float: right;
+        line-height: 42px;
+        margin-right: 35px;
+        font-size: 12px;
+        color: #a5a5a5;
+    }
+    
+    .up ul li a:hover {
+        color: #00a4ff;
+    }
+    
+    .up a:hover {
+        color: #00a4ff;
+    }
+    
+    .downleft {
+        float: left;
+        height: 413px;
+        width: 230px;
+    }
+    
+    .downleft img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .downup {
+        float: left;
+        margin-bottom: 22px;
+        margin-left: 10px;
+        width: 960px;
+        height: 100px;
+    }
+    
+    .downdown {
+        float: left;
+        width: 960px;
+        height: 291px;
+    }
+    
+    .downdown>div {
+        float: right;
+        width: 230px;
+        height: 291px;
+        margin: 0px 0px 0px 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .1);
+    }
+    
+    .downdown>div>img {
+        width: 100%;
+    }
+    
+    .down img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .downdown h4 a {
+        display: block;
+        padding: 20px 20px 20px 25px;
+        font-size: 14px;
+        color: #050505;
+        font-weight: 400;
+    }
+    
+    .downdown .info {
+        margin: 0px 20px 0px 25px;
+        font-size: 12px;
+        color: #999;
+    }
+    
+    .downdown .info>span {
+        color: #ff7c2d;
+    }
+    
+    .downdown h4 a:hover {
+        color: #00a4ff;
+    }
+    
+    .footer {
+        height: 415px;
+    }
+    
+    .footer .w {
+        padding-top: 35px;
+    }
+    
+    .copyright {
+        float: left;
+    }
+    
+    .copyright p {
+        margin-top: 23px;
+        font-size: 12px;
+        color: #666666;
+    }
+    
+    .copyright a {
+        display: block;
+        width: 120px;
+        height: 35px;
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+        color: #00a4ff;
+        border: 1px solid #00a4ff;
+    }
+    
+    .links {
+        float: right;
+    }
+    
+    .links dl {
+        float: left;
+        margin-left: 100px;
+    }
+    
+    .links dl dt {
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+    
+    .links dl dd a {
+        font-size: 12px;
+        color: #333;
+    }
+    
+    .links dl dd a:hover {
+        color: #999999;
+    }
